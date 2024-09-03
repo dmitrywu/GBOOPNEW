@@ -1,4 +1,4 @@
-package Lesson_07.Ex004;
+package L01Robot;
 
 public class Program {
     public static void main(String[] args) {
@@ -54,8 +54,6 @@ public class Program {
         robot3.power();
         robot3.work();
 
-        robot3.power();
-        robot3.power();
         robot3.power();
         
         //#endregion

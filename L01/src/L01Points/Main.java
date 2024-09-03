@@ -2,14 +2,15 @@ package L01Points;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Point2D a = new Point2D(0, 2);
+
+        Point2D a = new Point2D(0, 0);
         System.out.println(a);
-        a.setX(12);
-        Point2D b = new Point2D(10);
+        a.setX(2    );
+        Point2D b = new Point2D(2   );
         System.out.println(b);
 
-        // System.out.println(a,b);
+        var dis = Point2D.distance(a, b);
+        System.out.println(dis);
 
-        
     }
 }
