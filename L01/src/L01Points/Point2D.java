@@ -1,7 +1,17 @@
 package L01Points;
 
+/**
+ * Это точка 2D
+ */
+
 public class Point2D {
-    int x, y;
+    private int x, y; // это очень мощный комментарий, говорящий, что икс - это икс, а игрек - это игрек.
+
+    /**
+     * Это конструктор...
+     * @param valueX - это координата X
+     * @param valueY - это координата Y
+     */
 
     public Point2D(int valueX, int valueY) {
         x = valueX;
@@ -28,6 +38,22 @@ public class Point2D {
     //     y = value;
     // }
 
+    public int getX() {
+        return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
+
     private String getInfo() {
         return String.format("x: %d; y: %d", x, y);
     }
@@ -36,4 +62,6 @@ public class Point2D {
     public String toString() {
         return getInfo();
     }
+
+  
 }
