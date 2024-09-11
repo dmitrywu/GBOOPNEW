@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/GBOOPNEW.iml" filepath="$PROJECT_DIR$/.idea/GBOOPNEW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/L01/L01.iml" filepath="$PROJECT_DIR$/L01/L01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S01Full/S01Full.iml" filepath="$PROJECT_DIR$/S01Full/S01Full.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S01Light/S01Light.iml" filepath="$PROJECT_DIR$/S01Light/S01Light.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S02Light/S02Light.iml" filepath="$PROJECT_DIR$/S02Light/S02Light.iml" />
+    </modules>
+  </component>
+</project>
