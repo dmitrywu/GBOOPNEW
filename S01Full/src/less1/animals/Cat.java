@@ -1,4 +1,4 @@
-package less1;
+package less1.animals;
 
 import java.time.LocalDate;
 
@@ -10,6 +10,8 @@ public class Cat extends Animal {
         this.owner = owner;
     }
 
-
+    public Owner getOwner() {
+        return owner;
+    }
 }
 

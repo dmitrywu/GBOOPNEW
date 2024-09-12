@@ -1,6 +1,7 @@
-package less1;
+package less1.animals;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class main {
     public static void main(String[] args) {
@@ -26,7 +27,12 @@ public class main {
         Dog dog1 = new Dog("Dog-1", LocalDate.now());
         System.out.println(dog1.getType());
 
+        Animal animalCat = new Cat("Cat-1", LocalDate.now(), new Owner());
+        Animal animalDog = new Dog("Dog-1", LocalDate.now());
 
+        List<Animal> animals = List.of(animal, animalCat, animalDog, barsik);
+
+        System.out.println(animals);
     }
 
 }
