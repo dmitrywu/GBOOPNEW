@@ -3,9 +3,9 @@ package less1.practice;
 import java.time.LocalDate;
 
 public class Product {
-    private final String name;
-    private double price;
-    private final LocalDate releaseDate;
+    protected final String name;
+    protected double price;
+    protected final LocalDate releaseDate;
 
     public Product(String name, double price, LocalDate releaseDate) {
         this.name = name;
@@ -28,5 +28,14 @@ public class Product {
 
     public LocalDate getReleaseDate() {
         return releaseDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", releaseDate=" + releaseDate +
+                '}';
     }
 }

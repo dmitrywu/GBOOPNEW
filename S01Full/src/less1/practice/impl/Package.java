@@ -9,4 +9,8 @@ public enum Package {
     Package(String material) {
         this.material = material;
     }
+
+    public String getMaterial() {
+        return material;
+    }
 }
